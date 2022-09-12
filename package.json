@@ -1,0 +1,25 @@
+{
+  "name": "schedulingsyst",
+  "version": "0.0.1",
+  "description": "Web integrated scheduling system for appointments",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind_css": "npx tailwindcss -i ./clientSide/public/styles/tailwind.css -o ./clientSide/public/styles/output.css"
+  },
+  "author": "Marko Vukasinovic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.9",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mysql": "^2.18.1",
+    "postcss-cli": "^8.1.0",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,19 @@
+zakazi termin vece i u centru
+slova na tabeli u eventima da budu veca
+Yug samo bela slova
+primer:thebarbers.rs
+sekcije:
+	o zaposlenima
+	cene
+pdf font dodat 
+fotke radova i zaposlenih na kraju
+potsedi:
+	treba poslati sto vise teksta
+	cenovnik/usluge
+	novcanica
+
+Biranje zaposlenih
+Dodaj dane u nedelji
+Uradi sve black box testove i zabelezi korake
+Obavesti za pogresnu sifru
+Napravi da ako su svi terminu u danu popunjeni kalendar bude crn ili ako niko ne radi tim danom
