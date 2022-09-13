@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tailwindcss -i ./clientSide/public/styles/tailwind.css -o ./clientSide/public/styles/output.css && node server.js"
+    "start": "npm install && npx tailwindcss -i ./clientSide/public/styles/tailwind.css -o ./clientSide/public/styles/output.css && node server.js"
   },
   "author": "Marko Vukasinovic",
   "license": "ISC",
@@ -21,5 +21,8 @@
     "mysql": "^2.18.1",
     "postcss-cli": "^8.1.0",
     "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
