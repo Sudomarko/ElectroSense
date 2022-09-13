@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind_css": "npx tailwindcss -i ./clientSide/public/styles/tailwind.css -o ./clientSide/public/styles/output.css"
+    "start": "npx tailwindcss -i ./clientSide/public/styles/tailwind.css -o ./clientSide/public/styles/output.css && node server.js"
   },
   "author": "Marko Vukasinovic",
   "license": "ISC",

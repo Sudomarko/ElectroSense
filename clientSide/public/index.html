@@ -1,5 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html class="scroll-smooth"> <head>
+<html class="scroll-smooth">
+<head>
 <title></title>
 </head>
   <link rel="stylesheet" href="styles/output.css">
@@ -7,42 +8,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
       <div class="px-6 w-full flex flex-wrap items-center justify-between">
-        <div class="flex items-center">
-          <button
-            class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContentY"
-            aria-controls="navbarSupportedContentY"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fas"
-              class="w-5"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="currentColor"
-                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-              ></path>
-            </svg>
-          </button>
-        </div>
         <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
           <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
             <li class="nav-item">
-              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light" onclick="document.getElementById('ElectroSense').scrollIntoView();">About</a>
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#ElectroSense" data-mdb-ripple="true" data-mdb-ripple-color="light" >About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light" onclick="document.getElementById('TeamMembers').scrollIntoView();">Team Members</a>
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#TeamMembers" data-mdb-ripple="true" data-mdb-ripple-color="light">Team Members</a>
             </li>
             <li class="nav-item mb-2 lg:mb-0">
-              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light" onclick="document.getElementById('Plan').scrollIntoView();">Plan</a>
+              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out" href="#Plan" data-mdb-ripple="true" data-mdb-ripple-color="light">Plan</a>
             </li>
           </ul>
         </div>
@@ -51,10 +26,10 @@
     <!-- Navbar -->
 
     <!-- Jumbotron -->
-    <header id="ElectroSense" class="flex items-start justify-start h-1/3 mb-12 bg-fixed bg-center bg-cover bg-bed-pic shadow-md">
-        <div class="mt-20">
-          <h1 class="text-5xl font-bold mt-0 ml-8 mb-6 text-start text-blue-600">ElectroSense</h1>
-          <h3 class="text-3xl font-bold mb-8 ml-16 w-1/2 text-start text-blue-600">Senior Design Project by: Katie Canedo, Alexis Haley, Aveisha Maharaj, Marko Vukasinovic and Kayla Mastin</h3>
+    <header id="ElectroSense" class="flex items-start justify-start h-50 mb-12 bg-fixed bg-center bg-cover bg-bed-pic shadow-md">
+        <div class="mt-8 md:mt-16 pt-5 ml-8 bg-white w-1/2 shadow-xl mb-10">
+          <h1 class="text-3xl md:text-5xl font-bold mt-0 ml-8 mb-6 text-start text-blue-600">ElectroSense</h1>
+          <h3 class="text-l lg:text-3xl font-bold mb-8 ml-16 text-start text-blue-600 mr-10">Senior Design Project by: Katie Canedo, Alexis Haley, Aveisha Maharaj, Marko Vukasinovic and Kayla Mastin</h3>
         </div>
     </header>
     <!-- Jumbotron -->
@@ -62,21 +37,20 @@
     <h1 class="text-2xl mt-8 mb-4 text-start text-blue-600 mr-20 ml-20">
       The goal of our project is to create a hospital mattress designed for ICU patients that incorporates sensors within.
       This goes along with an app to connect to the bed via Bluetooth to be able to alert nurses of rapid changes in vitals.
-This will also assist CNAs who are understaffed in collected basic vitals such as heart rate and pulse oximetry as well as preventing bed sores.
-We’re also incorporating a few sensors for the patients’ comfort such as temperature control and massage pumps.
-
+      This will also assist CNAs who are understaffed in collected basic vitals such as heart rate and pulse oximetry as well as preventing bed sores.
+      We’re also incorporating a few sensors for the patients’ comfort such as temperature control and massage pumps.
     </h1>
 
     <center>
       <h3 id="TeamMembers"  class="text-3xl font-bold mt-20 mb-4 text-start text-blue-600">Team Members</h3>
-      <TABLE border=1 class="border-2 bg-gray-200 border-blue-600 text-2xl">
+      <TABLE border=1 class="border-2 bg-blue-100 border-blue-600 p-6 text-2xl shadow-md">
       <TBODY>
       <TR align=center>
-              <TD class="border-2 bg-gray-200 border-blue-600">Faculty Advisor</TD>
-              <TD class="border-2 bg-gray-200 border-blue-600">Dr. Venkat Keshav Chivukula</TD></TR>
+              <TD class="border-2 bg-blue-100 border-blue-600 p-6">Faculty Advisor</TD>
+              <TD class="border-2 bg-blue-100 border-blue-600 p-6">Dr. Venkat Keshav Chivukula</TD></TR>
       <TR align=center>
-              <TD class="border-2 bg-gray-200 border-blue-600">Team Members and Email Addresses</TD>
-              <TD class="border-2 bg-gray-200 border-blue-600">
+              <TD class="border-2 bg-blue-100 border-blue-600 p-6">Team Members and Email Addresses</TD>
+              <TD class="border-2 bg-blue-100 border-blue-600 p-6">
 
                   Katie Canedo: kcanedo2020@my.fit.edu<br>
                   Alexis Haley: ahaley2019@my.fit.edu<br>
@@ -91,19 +65,19 @@ We’re also incorporating a few sensors for the patients’ comfort such as tem
   <p>
   <center>
   <h3 id="Plan" class="text-3xl font-bold mt-20 mb-4 text-start text-blue-600">First Semester</h3>
-        <TABLE border=1 class="border-2 bg-gray-200 border-blue-600 text-2xl"><TBODY>
+        <TABLE border=1 class="border-2 bg-blue-100 border-blue-600 p-6 text-2xl shadow-md"><TBODY>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Plan (Sep 7)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600 underline"><a href=".\assets\projectPlan.pdf">Plan</a>, <a href=".\assets\BME4191Presentation_forCSE.pptx">Presentation</a></TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Plan (Sep 7)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6 underline"><a href=".\assets\projectPlan.pdf">Plan</a>, <a href=".\assets\BME4191Presentation_forCSE.pptx">Presentation</a></TD>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 1 (Oct 3)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="requirement.pdf">Requirement</a>, <a href="design.pdf">Design</a>, <a href="test.pdf">Test</a>, <a href="milestone1.pdf">Presentation</a>, <a href="eval1.pdf">Progress Evaluation</a></TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 1 (Oct 3)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="requirement.pdf">Requirement</a>, <a href="design.pdf">Design</a>, <a href="test.pdf">Test</a>, <a href="milestone1.pdf">Presentation</a>, <a href="eval1.pdf">Progress Evaluation</a></TD>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 2 (Oct 31)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="milestone3.pdf">Presentation</a>, <a href="eval2.pdf">Progress Evaluation</a></TD></TR>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 2 (Oct 31)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="milestone3.pdf">Presentation</a>, <a href="eval2.pdf">Progress Evaluation</a></TD></TR>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 3 (Nov 28)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="milestone3.pdf">Presentation</a>, <a href="eval3.pdf">Progress Evaluation</a></TD></TR>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 3 (Nov 28)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="milestone3.pdf">Presentation</a>, <a href="eval3.pdf">Progress Evaluation</a></TD></TR>
         </TBODY></TABLE>
   </center>
 
@@ -111,19 +85,19 @@ We’re also incorporating a few sensors for the patients’ comfort such as tem
 
   <h3  class="text-3xl font-bold mt-8 mb-4 text-start text-blue-600">Second Semester</h3>
 
-        <TABLE border=1 class="border-2 bg-gray-200 border-blue-600 text-2xl mb-20"><TBODY>
-  	<TR align=center class="border-2 bg-gray-200 border-blue-600">
-            <TD class="border-2 bg-gray-200 border-blue-600">Plan (Jan 16)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="plan2.pdf">Plan</a>, <a href="plan2Pres.pdf">Presentation</a></TD>
+        <TABLE border=1 class="border-2 bg-blue-100 border-blue-600 p-6 text-2xl mb-20 shadow-md"><TBODY>
+  	<TR align=center class="border-2 bg-blue-100 border-blue-600 p-6">
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Plan (Jan 16)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="plan2.pdf">Plan</a>, <a href="plan2Pres.pdf">Presentation</a></TD>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 4 (Feb 13)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="milestone4.pdf">Presentation</a>, <a href="eval4.pdf">Progress Evaluation</a></TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 4 (Feb 13)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="milestone4.pdf">Presentation</a>, <a href="eval4.pdf">Progress Evaluation</a></TD>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 5 (Mar 20)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="poster.pdf">Poster</a>, <a href="ebook.pdf">e-book page</a>, <a href="milestone5.pdf">Presentation</a>, <a href="eval5.pdf">Progress Evaluation</a></TD></TR>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 5 (Mar 20)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="poster.pdf">Poster</a>, <a href="ebook.pdf">e-book page</a>, <a href="milestone5.pdf">Presentation</a>, <a href="eval5.pdf">Progress Evaluation</a></TD></TR>
   	<TR align=center>
-            <TD class="border-2 bg-gray-200 border-blue-600">Milestone 6 (Apr 17)</TD>
-            <TD class="border-2 bg-gray-200 border-blue-600"><a href="userManual.pdf">User and/or Developer Manual</a>, <a href="demoVideo.jpg">Demo Video</a>, <a href="milestone6.pdf">Presentation</a>, <a href="eval6.pdf">Progress Evaluation</a></TD></TR>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6">Milestone 6 (Apr 17)</TD>
+            <TD class="border-2 bg-blue-100 border-blue-600 p-6"><a href="userManual.pdf">User and/or Developer Manual</a>, <a href="demoVideo.jpg">Demo Video</a>, <a href="milestone6.pdf">Presentation</a>, <a href="eval6.pdf">Progress Evaluation</a></TD></TR>
         </TBODY></TABLE>
   </center>
 
