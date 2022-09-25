@@ -3,9 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background-brown':'#1f1a17',
+        'background-blue':'#d8e7ee',
         'background-beige': '#877B74',
-        'text-black':'#1B1009',
+        'text-blue':'#BDCAD0',
         'border-brown': '#4A4440',
       },
       fontFamily: {
@@ -18,6 +18,10 @@ module.exports = {
       },
       backgroundImage: {
        'bed-pic': "url('/assets/background_photo1.jpg')",
+       'lake-pic': "url('/assets/Wallpaper_8.jpeg')",
+       'logo-pic': "url('/assets/Untitled.png')",
+       'hospital1-pic': "url('/assets/hospital-bed.png')",
+       'hospital2-pic': "url('/assets/hospital-bed(1).png')",
       },
       height: {
         '128': '32rem',
@@ -28,4 +32,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
